@@ -1,0 +1,20 @@
+{
+	"name": "pg-dump-restore",
+	"private": true,
+	"type": "module",
+	"devDependencies": {
+		"@biomejs/biome": "1.9.4",
+		"@tsconfig/node22": "^22.0.0",
+		"@tsconfig/strictest": "^2.0.5",
+		"@types/node": "^22.10.2",
+		"typescript": "^5.7.2"
+	},
+	"dependencies": {
+		"execa": "^9.5.2",
+		"tempy": "^3.1.0",
+		"zod": "^3.24.1"
+	},
+	"scripts": {
+		"build": "tsc"
+	}
+}
